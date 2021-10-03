@@ -19,12 +19,12 @@ def get_filters():
         city = input('You did not write the city name correctly, try again: ').lower()
           
     # get user input for month (all, january, february, ... , june)
-    month = input('Enter the month name: (all, january, february, march, ...)\n').lower()
+    month = input('Enter month name: (all, january, february, march, ...)\n').lower()
     while (month not in MONTHS):
         month = input('You did not write the month correctly, try again: ').lower()
         
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input('Enter the day name: (all, monday, tuesday, wednesday, ...)\n').lower()
+    day = input('Enter day of week name: (all, monday, tuesday, wednesday, ...)\n').lower()
     while (day not in DAYS):
         day = input('You did not write the day correctly, try again: ').lower()
 
